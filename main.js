@@ -34,12 +34,30 @@
 // SNACK 3
 
 
-let somma = 0;
+// let somma = 0;
 
-for (let i=1; i <= 10; i++)
+// for (let i=1; i <= 10; i++)
+// {
+//     let n = prompt("inserisci un numero");
+//     somma += parseFloat(n);
+// }
+
+// console.log(somma);
+
+
+
+// SNACK 4
+
+
+
+let array = [];
+
+for (let i=1; i <= 6; i++)
 {
-    let n = prompt("inserisci un numero");
-    somma += parseFloat(n);
+    let n = parseInt(prompt("inserisci un numero"));
+    if (n % 2 != 0)
+    {
+        array.push(n);
+    }
 }
-
-console.log(somma);
+console.log(array);
